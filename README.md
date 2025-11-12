@@ -32,7 +32,7 @@ Si un joueur ne fait que des strikes, chacun de ses tours lui rapportera 30 poin
 
 ![Figure 1](./doc/debut.png)
 
-- En vous servant de ce point de départ, concevoir et implémenter un programme java qui enregistre les résultats des lancers successifs **d'un seul joueur**, et qui permet de connaître son score. Vous pouvez (bien entendu) modifier la classe PartieMonoJoueur et rajouter autant d'autres classes que nécessaire en plus de la classe PartieMonoJoueur, qui sera votre classe principale. Consultez la documentation du projet pour les détails sur les méthodes. Le nom et la signature des méthodes publiques données ne doivent pas être modifiés.
+- En vous servant de ce point de départ, concevoir en UML et implémenter un programme java qui enregistre les résultats des lancers successifs **d'un seul joueur**, et qui permet de connaître son score. Vous pouvez (bien entendu) modifier la classe PartieMonoJoueur et rajouter autant d'autres classes que nécessaire en plus de la classe PartieMonoJoueur, qui sera votre classe principale. Consultez la documentation du projet pour les détails sur les méthodes. Le nom et la signature des méthodes publiques données ne doivent pas être modifiés.
 - Tous les tests contenus dans le jeu de test doivent être conservés. Vous pouvez ajouter d’autres tests de votre invention.
 
 ### Vous serez noté sur :
