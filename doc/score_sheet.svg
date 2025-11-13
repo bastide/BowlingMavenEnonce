@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="270" viewBox="0 0 800 270">
+  <style>
+    .frame { fill:none; stroke:black; stroke-width:1; }
+    .header { font-family:Arial; font-size:14px; font-weight:bold; }
+    .score { font-family:Arial; font-size:14px; text-anchor:middle; }
+    .roll { font-family:Arial; font-size:12px; text-anchor:end; }
+    .framepts { font-family:Arial; font-size:12px; text-anchor:middle; fill:#333; }
+    .total { font-family:Arial; font-size:14px; text-anchor:middle; font-weight:bold; }
+  </style>
+
+  <!-- Player name -->
+  <text x="20" y="30" class="header">Player: Alex</text>
+
+  <!-- Frames -->
+  <g transform="translate(20,50)">
+    <!-- Draw 10 frames -->
+    <rect x="0" y="0" width="70" height="70" class="frame"/>
+    <rect x="70" y="0" width="70" height="70" class="frame"/>
+    <rect x="140" y="0" width="70" height="70" class="frame"/>
+    <rect x="210" y="0" width="70" height="70" class="frame"/>
+    <rect x="280" y="0" width="70" height="70" class="frame"/>
+    <rect x="350" y="0" width="70" height="70" class="frame"/>
+    <rect x="420" y="0" width="70" height="70" class="frame"/>
+    <rect x="490" y="0" width="70" height="70" class="frame"/>
+    <rect x="560" y="0" width="70" height="70" class="frame"/>
+    <rect x="630" y="0" width="100" height="70" class="frame"/>
+
+    <!-- Upper boxes for rolls -->
+    <g>
+      <line x1="35" y1="0" x2="35" y2="20" stroke="black"/>
+      <line x1="105" y1="0" x2="105" y2="20" stroke="black"/>
+      <line x1="175" y1="0" x2="175" y2="20" stroke="black"/>
+      <line x1="245" y1="0" x2="245" y2="20" stroke="black"/>
+      <line x1="315" y1="0" x2="315" y2="20" stroke="black"/>
+      <line x1="385" y1="0" x2="385" y2="20" stroke="black"/>
+      <line x1="455" y1="0" x2="455" y2="20" stroke="black"/>
+      <line x1="525" y1="0" x2="525" y2="20" stroke="black"/>
+      <line x1="595" y1="0" x2="595" y2="20" stroke="black"/>
+      <line x1="665" y1="0" x2="665" y2="20" stroke="black"/>
+    </g>
+
+    <!-- Frame numbers -->
+    <text x="35" y="-5" class="header" text-anchor="middle">1</text>
+    <text x="105" y="-5" class="header" text-anchor="middle">2</text>
+    <text x="175" y="-5" class="header" text-anchor="middle">3</text>
+    <text x="245" y="-5" class="header" text-anchor="middle">4</text>
+    <text x="315" y="-5" class="header" text-anchor="middle">5</text>
+    <text x="385" y="-5" class="header" text-anchor="middle">6</text>
+    <text x="455" y="-5" class="header" text-anchor="middle">7</text>
+    <text x="525" y="-5" class="header" text-anchor="middle">8</text>
+    <text x="595" y="-5" class="header" text-anchor="middle">9</text>
+    <text x="680" y="-5" class="header" text-anchor="middle">10</text>
+
+    <!-- Rolls (partially filled) -->
+    <text x="30" y="15" class="roll">X</text> <!-- Strike -->
+    <text x="95" y="15" class="roll">7</text>
+    <text x="135" y="15" class="roll">/</text> <!-- Spare -->
+    <text x="165" y="15" class="roll">9</text>
+    <text x="205" y="15" class="roll">0</text> <!-- Open frame -->
+    <text x="235" y="15" class="roll">X</text>
+    <text x="305" y="15" class="roll">8</text>
+    <text x="345" y="15" class="roll">/</text>
+
+    <!-- Frame-by-frame points -->
+    <text x="35" y="42" class="framepts">20</text>
+    <text x="105" y="42" class="framepts">19</text>
+    <text x="175" y="42" class="framepts">9</text>
+    <text x="245" y="42" class="framepts">20</text>
+    <text x="315" y="42" class="framepts">20</text>
+
+    <!-- Cumulative totals -->
+    <text x="35" y="60" class="total">20</text>
+    <text x="105" y="60" class="total">39</text>
+    <text x="175" y="60" class="total">48</text>
+    <text x="245" y="60" class="total">68</text>
+    <text x="315" y="60" class="total">88</text>
+  </g>
+</svg>

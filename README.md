@@ -28,6 +28,14 @@ Aux 1°, 2° et 3° tours, le joueur a fait 3 strikes de suite. Il envoie ensuit
 
 Si un joueur ne fait que des strikes, chacun de ses tours lui rapportera 30 points : 10 quilles + les 10 de la boule suivante, + les 10 de la boule d'après, ce qui le donnera le maximum de points possibles, soit 300 (c'est excessivement rare, même pour les joueurs du plus haut niveau).
 
+#Exemple :
+
+x signifie "strike" et / signifie "spare".
+
+La première ligne montre le nombre de points rapportés par le tour, la deuxième ligne montre le score total acquis à ce point.
+
+![Calcul des scores](./doc/score_sheet.svg)
+
 ## Travail demandé
 
 ![Figure 1](./doc/debut.png)
