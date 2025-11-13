@@ -52,14 +52,14 @@
     <text x="680" y="-5" class="header" text-anchor="middle">10</text>
 
     <!-- Rolls (partially filled) -->
-    <text x="30" y="15" class="roll">X</text> <!-- Strike -->
+    <text x="30" y="15" class="roll">☒</text> <!-- Strike -->
     <text x="95" y="15" class="roll">7</text>
-    <text x="135" y="15" class="roll">/</text> <!-- Spare -->
+    <text x="135" y="15" class="roll">☑</text> <!-- Spare -->
     <text x="165" y="15" class="roll">9</text>
     <text x="205" y="15" class="roll">0</text> <!-- Open frame -->
-    <text x="235" y="15" class="roll">X</text>
+    <text x="235" y="15" class="roll">☒</text>
     <text x="305" y="15" class="roll">8</text>
-    <text x="345" y="15" class="roll">/</text>
+    <text x="345" y="15" class="roll">☑</text>
 
     <!-- Frame-by-frame points -->
     <text x="35" y="42" class="framepts">20</text>
