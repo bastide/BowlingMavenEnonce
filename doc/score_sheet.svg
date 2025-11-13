@@ -51,7 +51,7 @@
     <text x="595" y="-5" class="header" text-anchor="middle">9</text>
     <text x="680" y="-5" class="header" text-anchor="middle">10</text>
 
-    <!-- Rolls (partially filled) -->
+    <!-- Rolls (partially filled utf-8) -->
     <text x="30" y="15" class="roll">☒</text> <!-- Strike -->
     <text x="95" y="15" class="roll">7</text>
     <text x="135" y="15" class="roll">☑</text> <!-- Spare -->

@@ -30,9 +30,10 @@ Si un joueur ne fait que des strikes, chacun de ses tours lui rapportera 30 poin
 
 ## Exemple :
 
+La première ligne montre le nombre de quilles abatues à chaque lancer,
 ☒ signifie "strike" et ☑ signifie "spare".
 
-La première ligne montre le nombre de points rapportés par le tour, la deuxième ligne montre le score total acquis à ce point.
+La deuxième ligne montre le nombre de points rapportés par le tour, la troisième ligne montre le score total acquis à ce point de la partie.
 
 ![Calcul des scores](./doc/score_sheet.svg)
 
