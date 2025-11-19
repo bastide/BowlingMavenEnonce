@@ -66,13 +66,13 @@
     <text x="105" y="42" class="framepts">19</text>
     <text x="175" y="42" class="framepts">9</text>
     <text x="245" y="42" class="framepts">20</text>
-    <text x="315" y="42" class="framepts">20</text>
+    <text x="315" y="42" class="framepts">10</text>
 
     <!-- Cumulative totals -->
     <text x="35" y="60" class="total">20</text>
     <text x="105" y="60" class="total">39</text>
     <text x="175" y="60" class="total">48</text>
     <text x="245" y="60" class="total">68</text>
-    <text x="315" y="60" class="total">88</text>
+    <text x="315" y="60" class="total">78</text>
   </g>
 </svg>

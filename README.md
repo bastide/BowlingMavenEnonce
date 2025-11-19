@@ -34,8 +34,8 @@ La première ligne montre le nombre de quilles abatues à chaque lancer,
 ☒ signifie "strike" et ☑ signifie "spare".
 
 La deuxième ligne montre le nombre de points rapportés par le tour, la troisième ligne montre le score total acquis à ce point de la partie.
-
 ![Calcul des scores](./doc/score_sheet.svg)
+Quand on demande le score en cours de partie, on considère que tous les prochains lancers abattrons 0 quille.
 
 ## Travail demandé
 
